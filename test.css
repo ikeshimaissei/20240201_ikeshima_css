@@ -1,0 +1,46 @@
+*{
+    
+}
+body{
+    width: 1500px;
+    margin: 10px auto;
+}
+.title{
+    font-size: 30px;
+}
+nav{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+li{
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.mainpage{
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+img{
+    position: relative;
+    left: 750px;
+    width: 50%;
+    z-index: 10;
+}
+.everysmile{
+    font-size: 70px;
+    font-weight: normal;
+    position: absolute;
+    top: 340px;
+    display: inline-block;
+}
+.air{
+    position: absolute;
+    top: 490px;
+    background:#000080;
+    width:1150px ;
+    height: 250px;
+    z-index: 0;
+}
